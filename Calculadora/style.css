@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    overflow-y: hidden;
+}
+.contenedorPadre{
+    width: 100vw;
+    height: 100vh;
+}
+.contenedorInput{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+}
+.conteinerInputs{
+    position: relative;
+    top: 30px;
+    left: -20px;
+}
+.inputIngresar{
+    margin: auto 50px;
+    height: 50px;
+    width: 500px;
+    text-align: right;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    font-size: 20px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+.first-Row{
+    position: absolute;
+    left: 420px;
+    top: 100px;
+}
+.dos{
+    left: 550px;
+}
+.tres{
+    left: 680px;
+}
+.second-Row{
+    position: absolute;
+    left: 420px;
+    top: 200px;
+}
+.cinco{
+    left: 550px;
+}
+.seis{
+    left: 680px;
+}
+.third-Row{
+    position: absolute;
+    left: 420px;
+    top: 300px;
+}
+.ocho{
+    left: 550px;
+}
+.nueve{
+    left: 680px;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px black;
+}
+
+.operaciones{
+    width: 7vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 800px;
+    top: 150px;
+}
+.opbtn{
+    background-color: transparent;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+}
+.opbtn:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px black;
+}
+.igualResul{
+    width: 90px;
+    height: 40px;
+    box-shadow: 0px 0px 10px black;
+    background-color: transparent;
+    position: absolute;
+    left: 790px;
+    top: 400px;
+    border-radius: 10px;
+}
+.clearBtn{
+    width: 90px;
+    height: 40px;
+    box-shadow: 0px 0px 10px black;
+    background-color: transparent;
+    position: absolute;
+    left: 790px;
+    top: 100px;
+    border-radius: 10px;
+}
+.clearBtn:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 15px black;
+}
+.igualResul:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 15px black;
+}
+.cero{
+    position: absolute;
+    left: 550px;
+    top: 400px;
+}
